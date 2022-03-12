@@ -38,7 +38,7 @@ For this project, the original code was refactored to increase the efficiency of
 * To get output for the three columns on the worksheet, for loop was created and loop over the four arrays. 
 * For font-style, line-style,number-format, and columns-autofit coding parts were copied from original code. [AllStocksAnalysisRefactored_Code](https://github.com/duygusimsek/stock_analysis/blob/main/AllStocksAnalysisRefactored_Code.bas)
 * To run the analysis easily, the button function (All Stock Analysis Refactored) was used on the worksheet. 
-* After running the refactored code, the time performance of the code for in years 2017 and 2018 are given below. (add the images of refactored code running times)
+* After running the refactored code, the time performance of the code stock data analysis outputs for in years 2017 and 2018 are given below. (add the images of refactored code running times)
 
 ## Summary
 
