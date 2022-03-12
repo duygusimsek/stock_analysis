@@ -20,8 +20,6 @@ For this project, the original code was refactored to increase the efficiency of
 * The code for InputBox, activation for worksheet, creating headers of the chart, arrays for 12 tickers were written. 
 * “For loops” was created to find stock changes for the defining year in the dataset.
 * A ticker array was created to go through rows in the dataset. [AllStockAnalysis_OriginalCode](https://github.com/duygusimsek/stock_analysis/blob/main/AllStockAnalysis_OriginalCode.bas)
-* After running the original code, the time performance of the code for in years 2017 and 2018 are given below.
-* (add the images of original code running times).
 * Lastly, for formating the worksheet, “font-style”, “line-style”,”number-format” and “columns-autofit” were written.
 * To run the analysis easily, the button function (Run Analysis For All- Original Code) was used on the worksheet. 
 
@@ -38,10 +36,13 @@ For this project, the original code was refactored to increase the efficiency of
 * To get output for the three columns on the worksheet, for loop was created and loop over the four arrays. 
 * For font-style, line-style,number-format, and columns-autofit coding parts were copied from original code. [AllStocksAnalysisRefactored_Code](https://github.com/duygusimsek/stock_analysis/blob/main/AllStocksAnalysisRefactored_Code.bas)
 * To run the analysis easily, the button function (All Stock Analysis Refactored) was used on the worksheet. 
-* After running the refactored code, the time performance of the code stock data analysis outputs for in years 2017 and 2018 are given below. (add the images of refactored code running times)
-
-## Summary
-
+* After running the refactored code, the time performance of the code stock data analysis outputs for in years 2017 and 2018 are given below. 
+ 
+ ![Image for 2017](https://github.com/duygusimsek/stock_analysis/blob/main/Resources/%20VBA_Challenge_2017.png)
+ ![Image for 2018](https://github.com/duygusimsek/stock_analysis/blob/main/Resources/%20VBA_Challenge_2018.png)
+ 
+ ## Summary
+ 
 1. There are some advantages and disadvantages to refactoring a code.  Refactored code is more organized (clean code), therefore easy to read and understand, especially for other people than the creator. Once the code is ready to run, It helps to save time and money (because of usage of less memory footprint), and especially for big datasets running time of code is much faster. Although, the refactoring process is time-consuming and during the progress, mistakes can be made. 
-2.  The advantage of refactoring our original VBA script is optimizing run time. The refactored code ran approximately 4 times faster than the original code. However, for this size of the dataset, the refactoring process took more time than it benefits.
+2.  The advantage of refactoring our original VBA script is optimizing run time. The refactored code ran approximately 3 times faster than the original code. However, for this size of the dataset, the refactoring process took more time than it benefits.
 
